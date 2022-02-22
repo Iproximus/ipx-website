@@ -1,0 +1,123 @@
+.navbar {
+	width: 100%;
+	max-width: 100%;
+	height: 80px;
+	display: flex;
+	margin-top: -8px;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.scrolledbar {
+	display: flex;
+	position: fixed;
+	background-color: #E7E7E6;
+	width: 100%;
+	max-width: 100%;
+	height: 80px;
+	margin-top: -8px;
+	border-radius: 3px;
+	box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.35);
+	-webkit-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.35);
+	-moz-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.35);
+}
+
+.logo img {
+	display: flex;
+	justify-content: flex-start;
+	width: 200px;
+}
+
+.navigation ul {
+	margin-right: 30px;
+	box-sizing: border-box;
+	list-style-type: none;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.hover-underline-animation {
+	display: inline-block;
+	position: relative;
+	color: #000000;
+}
+
+.hover-underline-animation:after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	transform: scaleX(0);
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: #3f51b5;
+	transform-origin: bottom right;
+	transition: transform 0.10s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+	transform: scaleX(1);
+	transform-origin: bottom left;
+}
+
+.nav-left {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	width: 10%;
+}
+
+.nav-right {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	width: 90%;
+
+}
+
+ul {
+	padding: 0;
+	list-style: none;
+	text-align: left;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+ul li {
+	display: inline-block;
+	position: relative;
+	line-height: 4px;
+}
+
+ul li a {
+	font-weight: normal;
+	display: block;
+	font-size: medium;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	padding: 20px 10px;
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+}
+
+ul li ul.dropdown {
+	width: 250px;
+	background: #f7f7f7;
+	border-radius: 5px;
+	display: none;
+	position: absolute;
+	z-index: 999;
+	text-align: left;
+	text-justify: auto;
+
+}
+
+ul li:hover ul.dropdown {
+	display: block;
+
+}
+
+ul li ul.dropdown li {
+	display: block;
+
+}

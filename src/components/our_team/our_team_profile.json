@@ -1,0 +1,24 @@
+[
+    {
+        "id":1,
+        "image": "Ourteam-icon1.webp",
+        "desgination": "MALALA FUND CO-FOUNDER, U.S. BOARD CHAIR AND U.K. TRUSTEE",
+        "name": "Malala Yousafzai",
+        "description": "Malala Yousafzai is a Pakistani activist, student, UN Messenger of Peace and the youngest person ever awarded the Nobel Peace Prize. As co-founder, she is building a world where every girl can learn and lead without fear."
+    },
+    {
+        "id": 2,
+        "image": "Ourteam-icon2.jpg",
+        "desgination": "U.K. BOARD CHAIR",
+        "name": "Akhter Mateen",
+        "description": "Akhter is a former Chief Auditor of Unilever where he held many other high-level roles in Pakistan, the U.K., Latin America, South East Asia and elsewhere. He is Deputy Chairman and Audit Committee Chair of Great Ormond Street Hospital’s Trust, Non-Executive Director of CABI and on the Board of DIL Trust U.K. and King’s College Hospital NHS Foundation Trust as a Non-Executive Director."
+    },
+    {
+        "id": 3,
+        "image": "Ourteam-icon3.webp",
+        "desgination": "U.S. BOARD MEMBER",
+        "name": "Alaa Murabit",
+        "description": "Alaa Murabit is an award-winning medical doctor, global security strategist, women’s rights advocate, Harvard Radcliffe Institute Fellow (2020-2021) and United Nations High-Level Commissioner on Health, Employment & Economic Growth and Sustainable Development Goal Global Advocate. At the age of 21, she founded and spearheaded The Voice of Libyan Women. She is currently PAC Director at the Bill & Melinda Gates Foundation."
+    }
+   
+]
